@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kariyer Geçmişi | Şevval Mıkçı</title>
+    <style>
+        body { margin: 0; display: flex; background: #0f172a; color: #f1f5f9; font-family: 'Segoe UI', sans-serif; }
+        
+        /* Sol Menü */
+        .sidebar { width: 280px; height: 100vh; background: #2e1065; padding: 40px 20px; position: fixed; border-right: 2px solid #a78bfa; }
+        .sidebar h3 { color: #a78bfa; margin-bottom: 40px; text-align: center; }
+        .nav-link { color: #d8b4fe; text-decoration: none; font-size: 1.1rem; display: block; padding: 15px; border-radius: 8px; margin-bottom: 10px; transition: 0.3s; border-bottom: 1px solid rgba(167, 139, 250, 0.2); }
+        .nav-link:hover { background: #4c1d95; color: white; }
+
+        /* Sağ İçerik */
+        .content { margin-left: 320px; padding: 50px; width: 100%; }
+        h2 { color: #a855f7; margin-bottom: 30px; }
+        .card { background: #1e293b; padding: 25px; border-radius: 12px; margin-bottom: 25px; border-left: 4px solid #a855f7; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .card h3 { margin-top: 0; color: #f5f3ff; }
+        .card p { line-height: 1.6; color: #e2e8f0; }
+
+        /* Teknoloji Etiketleri Tasarımı */
+        .tech-container { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+        .tech-tag { background-color: #581c87; color: #e9d5ff; padding: 5px 14px; border-radius: 15px; font-size: 0.8rem; font-weight: 600; border: 1px solid #7e22ce; }
+
+        /* Teknik Beceriler Grid Tasarımı */
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 15px; }
+        .skill-group h4 { color: #a78bfa; margin-bottom: 10px; font-size: 0.9rem; letter-spacing: 1px; }
+        .pill-container { display: flex; flex-wrap: wrap; gap: 8px; }
+        .pill { background: #4c1d95; color: #e2e8f0; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; border: 1px solid #7c3aed; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h3>ŞEVVAL MIKÇI</h3>
+        <a href="index.html" class="nav-link">ANASAYFA</a>
+        <a href="kimdir.html" class="nav-link">KİMDİR</a>
+        <a href="detay.html" class="nav-link">KARİYER GEÇMİŞİ</a>
+        <a href="iletisim.html" class="nav-link">İLETİŞİM</a>
+    </div>
+
+    <div class="content">
+        <h2>KARİYER GEÇMİŞİ</h2>
+
+        <!-- EĞİTİM -->
+        <div class="card">
+            <h3>🎓 Eğitim</h3>
+            <p><strong>Necmettin Erbakan Üniversitesi</strong> | Bilgisayar Mühendisliği (2021 - 2025)<br>
+            <em>Derece:</em> Bölüm Birincisi (GPA: 3.25/4.00)</p>
+            <p><strong>İbni Sina Anadolu Lisesi</strong> | (2016 - 2020)</p>
+        </div>
+
+        <!-- DENEYİM -->
+        <div class="card">
+            <h3>💼 Deneyim</h3>
+            <p><strong>Turkcell IT | Uzun Dönem Yazılım Mühendisliği Stajyeri</strong><br>
+            Java ve Spring Boot kullanarak mikroservis mimarisine uygun, uçtan uca bir e-ticaret platformu geliştirdim. JPA/Hibernate ile veritabanı işlemlerini yönettim ve RESTful API'ler tasarlayarak servisler arası iletişimi sağladım.</p>
+            <div class="tech-container">
+                <span class="tech-tag">Java</span><span class="tech-tag">Spring Boot</span><span class="tech-tag">Microservices</span><span class="tech-tag">JPA</span><span class="tech-tag">Hibernate</span><span class="tech-tag">REST API</span>
+            </div>
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 20px 0;">
+            <p><strong>Türkiye Finans Katılım Bankası | Yazılım Stajyeri</strong><br>
+            ASP.NET MVC kullanarak POS yönetim sistemine yönelik modüller geliştirdim. MS SQL Server üzerinde SQL sorguları, Stored Procedure ve Trigger'lar oluşturarak veritabanı işlemlerini gerçekleştirdim.</p>
+            <div class="tech-container">
+                <span class="tech-tag">C#</span><span class="tech-tag">ASP.NET MVC</span><span class="tech-tag">MS SQL Server</span><span class="tech-tag">SQL</span><span class="tech-tag">Stored Procedure</span><span class="tech-tag">Trigger</span>
+            </div>
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 20px 0;">
+            <p><strong>LC Waikiki | Yazılım Stajyeri</strong><br>
+            HTML, CSS ve JavaScript kullanarak responsive kullanıcı arayüzleri geliştirdim. C# ve .NET Core ile RESTful API'ler geliştirerek frontend ve backend entegrasyonunu gerçekleştirdim.</p>
+            <div class="tech-container">
+                <span class="tech-tag">C#</span><span class="tech-tag">.NET Core</span><span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">JavaScript</span><span class="tech-tag">Postman</span>
+            </div>
+        </div>
+
+        <!-- AKADEMİK PROGRAMLAR -->
+        <div class="card">
+            <h3>🚀 Akademik Programlar</h3>
+            <p><strong>İTO SoftITo Akademi: Yapay Zeka Geliştirici Programı</strong></p>
+            <ul>
+                <li><strong>Büyük Veri & Mimari:</strong> Modern veri işleme teknikleri ve veri mimarileri.</li>
+                <li><strong>NLP & LLM Uzmanlığı:</strong> LLM, Prompt Engineering ve Fine-Tuning süreçleri.</li>
+                <li><strong>AI Agent Mimarileri:</strong> Araç kullanabilen (tool-use) yapay zeka sistemleri geliştirme.</li>
+                <li><strong>DevOps & Konteynerizasyon:</strong> Docker ile yapay zeka uygulamalarının dağıtımı.</li>
+            </ul>
+        </div>
+
+        
+        <!-- PROJELER -->
+        <!-- PROJELER -->
+        <div class="card">
+            <h3>🚀 Projeler</h3>
+            
+            <!-- Bitirme Projesi -->
+            <p><strong>Bitirme Projesi: Otonom Araç Simülasyonu</strong><br>
+            Bilgisayar görüsü teknikleri kullanarak otonom sürüş simülasyonu geliştirdim. YOLOv8 ile gerçek zamanlı nesne algılama yapısını kurarken, OpenCV üzerinden görüntü işleme algoritmalarıyla aracın şerit takibi ve engel algılama süreçlerini optimize ettim.</p>
+            <div class="tech-container">
+                <span class="tech-tag">Python</span><span class="tech-tag">YOLOv8</span><span class="tech-tag">OpenCV</span><span class="tech-tag">Deep Learning</span>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 20px 0;">
+
+            <!-- Hibe & Teşvik (Ekip Çalışması Vurgusu ile) -->
+            <p><strong>SoftITo Akademi: Hibe & Teşvik Danışmanlık AI</strong><br>
+            Ekip çalışması ile kurumsal dökümanlar üzerinde semantik arama yapabilen LLM tabanlı bir sistem tasarladık. RAG (Retrieval-Augmented Generation) mimarisini kullanarak, hibe ve teşvik dökümanlarını Qdrant vektör veritabanında başarıyla indeksledik ve kullanıcı sorularına yüksek doğrulukta bağlamsal yanıtlar üreten ölçeklenebilir bir yapay zeka agent'ı oluşturduk.</p>
+            <div class="tech-container">
+                <span class="tech-tag">Python</span><span class="tech-tag">LangChain</span><span class="tech-tag">RAG</span><span class="tech-tag">Qdrant</span><span class="tech-tag">Docker</span>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 20px 0;">
+
+            <!-- Sales Prediction -->
+            <p><strong>ML Based Sales Prediction API Project</strong><br>
+            Northwind veri tabanını kullanarak, veri ön işleme, özellik mühendisliği (feature engineering) ve model eğitimi aşamalarını kapsayan uçtan uca bir makine öğrenmesi pipeline'ı kurdum. 6'dan fazla regresyon algoritmasını karşılaştırarak en yüksek doğruluk oranına sahip modeli seçtim ve bu modeli FastAPI ile canlı bir API servisine dönüştürdüm.</p>
+            <div class="tech-container">
+                <span class="tech-tag">Python</span><span class="tech-tag">Scikit-learn</span><span class="tech-tag">XGBoost</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">SQLAlchemy</span>
+            </div>
+        </div>
+
+        <!-- TEKNİK BECERİLER -->
+        <div class="card">
+            <h3>🛠 TEKNİK BECERİLER</h3>
+            <div class="skills-grid">
+                <div class="skill-group"><h4>DİLLER</h4><div class="pill-container"><span class="pill">Python</span><span class="pill">Java</span><span class="pill">C#</span><span class="pill">C</span><span class="pill">C++</span><span class="pill">JavaScript</span><span class="pill">SQL</span></div></div>
+                <div class="skill-group"><h4>ML / AI</h4><div class="pill-container"><span class="pill">PyTorch</span><span class="pill">HuggingFace</span><span class="pill">scikit-learn</span><span class="pill">LangChain</span><span class="pill">YOLOv8</span><span class="pill">OpenCV</span><span class="pill">RAG</span></div></div>
+                <div class="skill-group"><h4>ALTYAPI</h4><div class="pill-container"><span class="pill">Docker</span><span class="pill">Kubernetes</span><span class="pill">CI/CD</span><span class="pill">Git</span></div></div>
+                <div class="skill-group"><h4>VERİ & BACKEND</h4><div class="pill-container"><span class="pill">PostgreSQL</span><span class="pill">ASP.NET Core</span><span class="pill">FastAPI</span><span class="pill">Spring Boot</span><span class="pill">MVC</span><span class="pill">Entity Framework</span></div></div>
+            </div>
+        </div>
+
+        <!-- DİLLER -->
+        <div class="card">
+            <h3>🌍 Diller</h3>
+            <p> <strong>İngilizce:</strong> Profesyonel Yeterlilik</p>
+        </div>
+    </div>
+</body>
+</html>
