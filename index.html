@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Şevval Mıkçı | Portfolyo</title>
+    <!-- FontAwesome İkon Kütüphanesi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { 
+            margin: 0; height: 100vh; font-family: 'Segoe UI', sans-serif; 
+            background: radial-gradient(circle at top right, #312e81, #1e1b4b, #0f172a);
+            color: #ffffff; display: flex; flex-direction: column; 
+            justify-content: center; align-items: center; 
+        }
+
+        .container { text-align: center; max-width: 600px; width: 90%; }
+        h1 { font-size: 3rem; margin-bottom: 10px; }
+        .title-sub { color: #d8b4fe; font-size: 1.2rem; margin-bottom: 25px; letter-spacing: 1px; }
+
+        /* CV Butonu */
+        .btn-cv {
+            display: inline-block; margin-bottom: 20px; background: transparent;
+            color: white; padding: 12px 30px; border: 2px solid #a78bfa;
+            border-radius: 5px; font-weight: bold; cursor: pointer;
+            transition: 0.3s; text-decoration: none;
+        }
+        .btn-cv:hover { background: #a78bfa; color: #2e1065; }
+
+        /* Şık Sosyal Linkler (Hap Tasarım) */
+        .social-links {
+            margin-bottom: 40px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;
+        }
+        .social-icon {
+            color: #c7d2fe; text-decoration: none; font-size: 0.9rem; font-weight: 500;
+            padding: 8px 16px; border-radius: 20px;
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(167, 139, 250, 0.2);
+            transition: all 0.3s ease;
+        }
+        .social-icon:hover {
+            background: rgba(139, 92, 246, 0.3);
+            color: #ffffff; border-color: #a78bfa; transform: translateY(-2px);
+        }
+
+        /* Navigasyon */
+        .nav-link {
+            display: block; text-align: left; padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            text-decoration: none; color: #e2e8f0; font-size: 1.5rem; transition: 0.3s;
+        }
+        .nav-link:hover { color: #a78bfa; padding-left: 10px; }
+        .nav-link span { color: #a78bfa; margin-right: 15px; font-size: 1rem; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ŞEVVAL MIKÇI</h1>
+        <p class="title-sub">BİLGİSAYAR MÜHENDİSİ | Backend Developer & AI Engineer</p>
+        
+        <a href="ŞEVVAL_MIKCI_CV.pdf" download="Sevval_Mikci_CV.pdf" class="btn-cv">CV İNDİR ⬇</a>
+
+        <!-- Şık Sosyal Linkler -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sevval-mikci" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/sevval-345" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://medium.com/@sevvalmikci" target="_blank" class="social-icon">
+                <i class="fab fa-medium"></i> Medium
+            </a>
+            <a href="mailto:sevvalmikci@gmail.com" class="social-icon">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+        </div>
+
+        <a href="kimdir.html" class="nav-link"><span>01</span> KİMDİR</a>
+        <a href="detay.html" class="nav-link"><span>02</span> KARİYER GEÇMİŞİ</a>
+        <a href="iletisim.html" class="nav-link"><span>03</span> İLETİŞİM</a>
+    </div>
+
+</body>
+</html>

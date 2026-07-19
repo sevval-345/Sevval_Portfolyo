@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hakkımda | Şevval Mıkçı</title>
+    <style>
+        body { 
+            margin: 0; display: flex; font-family: 'Segoe UI', sans-serif; 
+            background: #1e1b4b; color: white; 
+        }
+
+        /* Sabit Sol Menü */
+        .sidebar { 
+            width: 280px; height: 100vh; background: #2e1065; 
+            padding: 40px 20px; position: fixed; border-right: 2px solid #a78bfa;
+        }
+        .sidebar h3 { color: #a78bfa; margin-bottom: 40px; text-align: center; }
+        
+        .nav-link { 
+            color: #d8b4fe; text-decoration: none; font-size: 1.1rem; 
+            display: block; padding: 15px; border-radius: 8px;
+            margin-bottom: 10px; transition: 0.3s;
+            border-bottom: 1px solid rgba(167, 139, 250, 0.2);
+        }
+        .nav-link:hover { background: #4c1d95; color: white; }
+
+        /* İçerik Alanı */
+        .content { margin-left: 320px; padding: 50px; width: 100%; }
+        h2 { color: #a78bfa; margin-bottom: 30px; }
+        
+        .card { 
+            background: #312e81; padding: 30px; border-radius: 15px; 
+            margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            border-left: 5px solid #a78bfa;
+        }
+        .card h3 { margin-top: 0; color: #f5f3ff; }
+        .card p { line-height: 1.6; color: #e2e8f0; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h3>ŞEVVAL MIKÇI</h3>
+        <a href="index.html" class="nav-link">ANASAYFA</a>
+        <a href="kimdir.html" class="nav-link">KİMDİR</a>
+        <a href="detay.html" class="nav-link">KARİYER GEÇMİŞİ</a>
+        <a href="iletisim.html" class="nav-link">İLETİŞİM</a>
+    </div>
+
+    <div class="content">
+        <h2>HAKKIMDA</h2>
+
+        <div class="card">
+            <h3>TEKNİK PROFİL</h3>
+            <p>
+                Necmettin Erbakan Üniversitesi Bilgisayar Mühendisliği bölümünden bölüm birincisi olarak mezun oldum. 
+                Backend geliştirme, yapay zeka ve veri odaklı yazılım teknolojileri üzerine çalışmalar yürütüyorum. 
+                Python, FastAPI, C#, ASP.NET Core ve SQL teknolojilerini kullanarak RESTful API'ler, mikroservis tabanlı uygulamalar ve ölçeklenebilir backend çözümleri geliştiriyorum.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>UZMANLIK ALANLARIM</h3>
+            <p>
+                Doğal Dil İşleme (NLP), Retrieval-Augmented Generation (RAG), Büyük Dil Modelleri (LLM), fine-tuning ve vektör veritabanları (Qdrant) üzerine projeler geliştiriyorum. 
+                Semantik arama, akıllı eşleştirme ve öneri sistemleri gibi yapay zeka uygulamalarına odaklanıyor; Docker, Git ve modern yazılım geliştirme prensiplerini kullanarak sürdürülebilir, ölçeklenebilir ve yüksek performanslı çözümler üretmeyi hedefliyorum. 
+                Analitik düşünme becerim ve sürekli öğrenme yaklaşımım sayesinde yeni teknolojileri hızla adapte ederek gerçek dünya problemlerine değer katan projelerde yer almayı amaçlıyorum.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
